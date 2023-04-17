@@ -57,6 +57,7 @@ public void ItemControl(){
         itempoke.hp += 3;
         item1.potion +=3;
         itemtrainer.money +=3;
+    System.out.println("★★★ item class ★★★");
     System.out.println("itempokeHP in item class" + itempoke.hp);
     System.out.println("item1 potion in itemclass= " + item1.potion);
     System.out.println("itemlist in itemclass= " + item1.itemlist3);

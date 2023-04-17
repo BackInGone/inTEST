@@ -8,11 +8,14 @@ public class Pocketmon {
     int pp2;
     int pp3;
     int pp4;
-
+    String name;
     int index;
 
+    Pocketmon(){
 
-    Pocketmon() {
+    }
+
+    Pocketmon(int hp, int index) {
     }
 
 
@@ -32,6 +35,7 @@ public class Pocketmon {
         pocketmonItem.potion +=2;
         pocketmontrainer.money +=2;
 
+        System.out.println("★★★ pocketmon class ★★★");
         System.out.println(" pocketmonHP in Pocketmon= " + pocke1.hp); 
         System.out.println("itempotion in Pocketmon= " + pocketmonItem.potion); 
         System.out.println("itemlist in Pocketmon= " + pocketmonItem.itemlist3); 
